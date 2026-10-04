@@ -1,3 +1,7 @@
+# Note on this Fork
+
+The following text is the original Readme of the upstream fork which only added the AI assisted Project Analysis Link at the bottom. Since this is a laudable educational web resource I am using this repo fork to keep it up to date. 
+
 # [Seeing Theory](http://students.brown.edu/seeing-theory/) 
 
 Seeing Theory is a project designed and created by Daniel Kunin with support from Brown University's [Royce Fellowship](https://www.brown.edu/academics/college/fellowships/royce/) Program. The goal of the project is to make statistics more accessible to a wider range of students through interactive visualizations.

@@ -578,10 +578,10 @@
                 .on('hashchange', hashChangeHandler)
 
                 //when opening a new tab (ctrl + t), `control` won't be pressed when coming back.
-                .blur(blurHandler)
+                .on('blur', blurHandler)
 
                 //when resizing the site, we adjust the heights of the sections, slimScroll...
-                .resize(resizeHandler);
+                .on('resize', resizeHandler);
 
             $document
                 //Sliding with arrow keys, both, vertical and horizontal

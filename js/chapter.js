@@ -214,7 +214,7 @@ function modalTitleOnLoad() {
 
 
 
-$(window).scroll(function() {
+$(window).on('scroll',function() {
     ScrollProgressBar();
     chapterBackgroundColorChange();
 
@@ -492,7 +492,7 @@ function setPadding(n) {
 
 /*MODAL*/
 
-$(window).resize(function() {
+$(window).on('resize',function() {
 
 
     if ($(window).width() < 750) {

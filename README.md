@@ -1,6 +1,6 @@
 # Note on this Fork
 
-The following text is the original Readme of the upstream fork which only added the AI assisted Project Analysis Link at the bottom. Since this is a laudable educational web resource I am using this repo fork to keep it up to date. 
+The following text is the original Readme of the upstream fork which only added the AI assisted Project Analysis Link at the bottom. Since this is a laudable educational web resource, that now seem to be defunct, I am using this repo fork to keep it up to date. 
 
 # [Seeing Theory](http://students.brown.edu/seeing-theory/) 
 

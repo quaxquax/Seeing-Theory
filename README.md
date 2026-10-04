@@ -32,6 +32,6 @@ We are currently not supporting new language translations. At some point we hope
 
 Feel free to use Seeing Theory for educational purposes, but we ask that you do not use the visualizations for commerical use.  Copyright 2016-2019.
 
-## 项目分析
+## Project Analysis (项目分析):
 
-https://www.deepwiki.com/seeingtheory/Seeing-Theory
+# https://www.deepwiki.com/seeingtheory/Seeing-Theory

@@ -487,6 +487,10 @@ function counting() {
     // Compute the new tree layout nodes.
     var nodes = tree.nodes(root).reverse();
 
+      nodes.forEach(function(d) {  
+	  if (d.x0 === undefined) { d.x0 = root.x0; d.y0 = root.y0; }  
+      });
+      
     //Update nodes.x and nodes.x0 for combinations
     function removeRepeats(nodeArray) {
       var hashmap = new Map();

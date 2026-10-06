@@ -384,11 +384,13 @@
     <link rel="stylesheet" type="text/css" href="../css/jssocials-theme-flat.css" />
     <script src="../js/jssocials.min.js"></script>
     <script>
+        jsSocials.shares.bluesky = { label: "Bluesky", logo: "../img/bsky.png", shareUrl: "https://bsky.app/intent/compose?text={url}", countUrl: "" };
+
         $("#share").jsSocials({
             showLabel: false,
             showCount: false,
             shareIn: "popup",
-            shares: ["email", "twitter", "facebook", "googleplus", "linkedin"]
+            shares: ["email", "twitter", "facebook", "bluesky", "linkedin"]
         });
 
         $(".languageSetting").change(function() {

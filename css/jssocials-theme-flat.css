@@ -107,3 +107,13 @@
   .jssocials-share-count-box .jssocials-share-count {
     line-height: 2.5em;
     color: #444; }
+  
+  /* Bluesky share icon */
+
+.jssocials-share-link .bsky-icon {  
+    display: inline-block !important;  
+    width: 1em;  
+    height: 1em;  
+    vertical-align: middle;  
+    background: url("../img/bsky.svg") no-repeat center / contain;  
+}

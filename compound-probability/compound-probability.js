@@ -687,7 +687,7 @@ function counting() {
   }
 
   // Handle table click and hover
-    $("#count_table").on('click mouseover mouseleave', 'td", function(e) {
+    $("#count_table").on('click mouseover mouseleave', 'td', function(e) {
     var col = $(this).index() - 1,
         curr = $("#count_table colgroup").eq(col + 1);
     if (0 <= col && col != number && col <= size) {
